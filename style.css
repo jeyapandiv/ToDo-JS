@@ -1,0 +1,55 @@
+body {
+    max-width: 1440px;
+    width: 100%;
+    background-color: rgb(188, 217, 219);
+    margin: auto;
+    font-family: 'Martian Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.container {
+    width: 60%;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px ;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    width: 90%;
+}
+
+.clr_btn {
+    color: rgb(189, 15, 15);
+}
+
+.input_1 {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid rgb(74, 85, 85);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button_1 {
+    color: rgb(16, 155, 50);
+    font-weight: 600;
+    padding: 10px 5px;
+    border: 2px solid rgb(74, 85, 85);
+    border-radius: 0px 10px 10px 0px;
+}
